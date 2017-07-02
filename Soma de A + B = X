@@ -1,10 +1,11 @@
 #include <stdio.h>
+
 int main()
 {
 	int A, B, X;
-	scanf("%d", &A);
-	scanf("%d", &B);
+	scanf("%d",&A);
+	scanf("%d",&B);
 	X = A+B;
-	printf("X = %d \n", X);
-	system("pause");
+	printf("X = %d\n",X);
+	system ("pause");
 }
